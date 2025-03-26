@@ -1,7 +1,8 @@
 #pragma once
 
-#include "cast_export.h"
-#include "cast_cb.h"
+#include "cast/cast_export.h"
+#include "cast/cast_cb.h"
+//#include "cast_def.h"
 
 /// initialization parameters for cusCastInit
 typedef struct _CusInitParams

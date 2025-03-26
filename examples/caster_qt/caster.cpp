@@ -2,7 +2,7 @@
 #include "display.h"
 #include "3d.h"
 #include "ui_caster.h"
-#include <cast/cast.h>
+#include "cast.h"
 
 static Caster* _me;
 

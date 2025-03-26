@@ -6,12 +6,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 PRECOMPILED_HEADER = pch.h
 
 # ensure to unpack the appropriate libs from the zip file into this folder
-LIBPATH = $$PWD/../../lib
-INCLUDEPATH += $$PWD/../../include
+LIBPATH = $$PWD/lib
+#INCLUDEPATH += $$PWD/include
 LIBS += -L$$LIBPATH/ -lcast
 
 SOURCES += main.cpp caster.cpp display.cpp 3d.cpp
-HEADERS += caster.h display.h 3d.h
+HEADERS += caster.h display.h cast.h cast_cb.h cast_def.h cast_export.h 3d.h
 FORMS += caster.ui
 
 RESOURCES += \

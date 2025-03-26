@@ -1,3 +1,4 @@
+# pragma once
 
 #ifndef CAST_EXPORT_H
 #define CAST_EXPORT_H

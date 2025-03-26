@@ -1,6 +1,6 @@
 #pragma once
 
-#include "cast_def.h"
+#include "cast/cast_def.h"
 
 /// return status callback function
 /// @param[in] imagePort the udp port on a successful connection attempt, CUS_FAILURE on an unsuccessful attempt or other error

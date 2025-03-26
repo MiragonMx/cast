@@ -11,8 +11,12 @@
 #else
 #include <unistd.h>
 #endif
+#include <cast_cb.h>
+#include <cast_export.h>
+#include <cast_def.h>
+#include <cast.h>
 
-#include <cast/cast.h>
+//#include "cast.h"
 
 #define PRINT           std::cout << std::endl
 #define PRINTSL         std::cout << "\r"
